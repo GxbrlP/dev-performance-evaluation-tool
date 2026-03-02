@@ -4,36 +4,34 @@ Sistema para avaliação humanizada de desempenho de desenvolvedores, integrando
 
 🎓 Sobre o Projeto
 
-Este projeto está sendo desenvolvido como Trabalho de Conclusão de Curso (TCC) em Ciência da Computação.
+Este projeto está sendo desenvolvido como Trabalho de Conclusão de Curso (TCC) em Ciência da Computação na Fundação Universitária de Blumenau - 2026/1.
 
 A proposta é criar uma ferramenta que:
 
-Integre métricas de repositórios Git
+· Integre métricas de repositórios Git
 
-Avalie competências técnicas
+· Avalie competências técnicas
 
-Avalie soft skills
+· Avalie soft skills
 
-Gere recomendações estruturadas
+· Gere recomendações estruturadas
 
-Produza um Plano de Desenvolvimento Individual (PDI)
+· Produza um Plano de Desenvolvimento Individual (PDI)
 
-Evite abordagens excessivamente quantitativas e pressionadoras
+· Evite abordagens excessivamente quantitativas e pressionadoras
 
 O foco é uma avaliação equilibrada, voltada ao crescimento profissional.
 
-Funcionalidades Planejadas
+Funcionalidades Planejadas:
 
-Integração com GitHub/GitLab
+· Integração com GitHub/GitLab
 
-Coleta de commits e métricas temporais
+· Coleta de commits e métricas temporais
 
-Avaliação de competências técnicas
+· Avaliação de competências técnicas
 
-Avaliação de soft skills
+· Avaliação de soft skills
 
-Dashboard consolidado
+· Dashboard consolidado
 
-Geração automática de PDI
-
-Recomendações personalizadas
+· Geração automática de PDI
