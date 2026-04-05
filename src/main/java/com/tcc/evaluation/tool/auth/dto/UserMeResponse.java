@@ -1,16 +1,18 @@
 package com.tcc.evaluation.tool.auth.dto;
 
 import com.tcc.evaluation.tool.model.Role;
-
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 @Data
-public class RegisterRequest {
+@AllArgsConstructor
+public class UserMeResponse {
+    private Long id;
+
     private String name;
 
     private String email;
 
-    private String password;
-    
     private Role role;
+
 }

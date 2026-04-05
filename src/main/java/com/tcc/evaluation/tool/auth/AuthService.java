@@ -50,4 +50,17 @@ public class AuthService {
 
         return new AuthResponse(token);
     }
+
+    public UserMeResponse me(String email) {
+
+    User user = repository.findByEmail(email)
+            .orElseThrow(() -> new RuntimeException("Usuário não encontrado"));
+
+    return new UserMeResponse(
+            user.getId(),
+            user.getName(),
+            user.getEmail(),
+            user.getRole()
+    );
+}
 }
